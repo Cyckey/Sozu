@@ -1,0 +1,152 @@
+:root {
+  /**
+  * Default
+  * -------------------------------------------------------------------------- */
+
+  --iconify-defaultcolor: var(--vp-c-text-2);
+  --component-bg: var(--vp-c-bg-alt);
+
+  /**
+  * Component: Announcement
+  * -------------------------------------------------------------------------- */
+  --Announcement-bg: var(--vp-button-alt-bg);
+  --Announcement-border: transparent;
+  --Announcement-data: var(--vp-c-brand-3);
+  --Announcement-bg-hover: var(--vp-c-brand-soft);
+  --Announcement-border-hover: var(--vp-c-brand-soft);
+  --Announcement-transform-hover: translateY(-1px);
+  --Announcement-transform-active: scale(0.98);
+
+  /**
+  * Component: AsideLogo
+  * -------------------------------------------------------------------------- */
+
+  --AsideLogo-bg: var(--component-bg);
+  --AsideLogo-border: transparent;
+  --AsideLogo-name: linear-gradient(
+    225deg,
+    var(--vp-c-brand-1),
+    var(--vp-c-brand-3),
+    var(--vp-c-brand-1)
+  );
+  --AsideLogo-activity: linear-gradient(
+    225deg,
+    rgba(100, 108, 255, 1),
+    rgba(176, 71, 255, 1),
+    rgba(100, 108, 255, 1)
+  );
+  --AsideLogo-hide: var(--vp-c-text-2);
+  --AsideLogo-info: var(--vp-c-text-2);
+  --AsideLogo-name-bg-hover: var(--vp-c-brand-soft);
+  --AsideLogo-name-border-hover: var(--vp-c-brand-soft);
+  --AsideLogo-activity-bg-hover: rgba(100, 108, 255, 0.16);
+  --AsideLogo-activity-border-hover: rgba(100, 108, 255, 0.16);
+  --AsideLogo-transform-hover: translateY(-1px);
+  --AsideLogo-transform-active: scale(0.9);
+
+  /**
+  * Component: Box
+  * -------------------------------------------------------------------------- */
+
+  --Box-bg: var(--component-bg);
+  --Box-border: transparent;
+  --Box-name: inherit;
+  --Box-tag: var(--vp-c-brand-text);
+  --Box-tag-bg: var(--vp-c-brand-3);
+  --Box-bg-hover: var(--vp-c-brand-soft);
+  --Box-border-hover: var(--vp-c-brand-soft);
+  --Box-boxshadow-hover: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --Box-transform-hover: translateY(-1px);
+  --Box-transform-active: scale(0.95);
+
+  /**
+  * Component: BoxCube
+  * -------------------------------------------------------------------------- */
+
+  --Boxcube-bg: var(--component-bg);
+  --Boxcube-border: transparent;
+  --Boxcube-name: inherit;
+  --Boxcube-desc: var(--vp-c-text-3);
+  --Boxcube-tag: var(--vp-c-brand-text);
+  --Boxcube-tag-bg: var(--vp-c-brand-3);
+  --Boxcube-bg-hover: var(--vp-c-brand-soft);
+  --Boxcube-border-hover: var(--vp-c-brand-soft);
+  --Boxcube-boxshadow-hover: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --Boxcube-transform-hover: translateY(-1px);
+  --Boxcube-transform-active: scale(0.95);
+
+  /**
+  * Component: Links
+  * -------------------------------------------------------------------------- */
+
+  --Links-bg: var(--component-bg);
+  --Links-border: transparent;
+  --Links-name: inherit;
+  --Links-desc: var(--vp-c-text-3);
+  --Links-bg-hover: var(--vp-c-brand-soft);
+  --Links-border-hover: var(--vp-c-brand-soft);
+  --Links-boxshadow-hover: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --Links-transform-hover: translateY(-1px);
+  --Links-transform-active: scale(0.95);
+
+  /**
+  * Component: Pill
+  * -------------------------------------------------------------------------- */
+
+  --Pill-bg: var(--vp-code-bg);
+  --Pill-border: transparent;
+  --Pill-name: inherit;
+  --Pill-bg-hover: var(--vp-c-brand-soft);
+  --Pill-border-hover: var(--vp-c-brand-soft);
+  --Pill-boxshadow-hover: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --Pill-transform-hover: translateY(0px);
+  --Pill-transform-active: scale(0.95);
+
+  /**
+  * Component: HomeFooter
+  * -------------------------------------------------------------------------- */
+
+  --HomeFooter-bg: var(--component-bg);
+  --HomeFooter-link-hover: var(--vp-c-brand-1);
+
+  /**
+  * Component: HomeUnderline
+  * -------------------------------------------------------------------------- */
+
+  --HomeUnderline-bg: var(--vp-c-brand-1);
+
+  /**
+  * Component: ShareButton
+  * -------------------------------------------------------------------------- */
+
+  --ShareButton-bg: var(--component-bg);
+  --ShareButton-border: transparent;
+  --ShareButton-text: var(--vp-c-brand-1);
+  --ShareButton-copied-text: var(--vp-c-brand-1);
+  --ShareButton-transition: var(--vp-c-brand-soft);
+  --ShareButton-icon: var(--vp-c-brand-1);
+  --ShareButton-bg-hover: var(--vp-c-brand-soft);
+  --ShareButton-border-hover: var(--vp-c-brand-soft);
+  --ShareButton-transform-hover: translateY(-1px);
+  --ShareButton-transform-active: scale(0.9);
+
+  /**
+  * Home-links
+  * -------------------------------------------------------------------------- */
+
+  --Home-links-custom-brand: url('https://i.theojs.cn/avatar.webp');
+  --Home-links-custom-alt: url('https://i.theojs.cn/avatar.webp');
+}
+
+.dark {
+  /**
+  * Component: Box
+  * -------------------------------------------------------------------------- */
+
+  --Box-tag-bg: var(--vp-c-brand-1);
+
+  /**
+  * Component: BoxCube
+  * -------------------------------------------------------------------------- */
+  --Boxcube-tag-bg: var(--vp-c-brand-1);
+}

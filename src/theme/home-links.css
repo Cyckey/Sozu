@@ -1,0 +1,64 @@
+/**
+ * Component: home-links
+ * -------------------------------------------------------------------------- */
+a.custom-brand {
+  border-color: var(--vp-button-brand-border);
+  background-color: var(--vp-button-brand-bg);
+  color: var(--vp-button-brand-text);
+}
+
+a.custom-brand:hover {
+  border-color: var(--vp-button-brand-hover-border);
+  background-color: var(--vp-button-brand-hover-bg);
+  color: var(--vp-button-brand-hover-text);
+}
+
+a.custom-brand:active {
+  border-color: var(--vp-button-brand-active-border);
+  background-color: var(--vp-button-brand-active-bg);
+  color: var(--vp-button-brand-active-text);
+}
+
+a.custom-brand::before {
+  display: inline-block;
+  transform: translateY(7px);
+  margin-right: 0.5em;
+  background-image: var(--Home-links-custom-brand);
+  background-position: bottom;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: '';
+}
+
+a.custom-alt {
+  border-color: var(--vp-button-alt-border);
+  background-color: var(--vp-button-alt-bg);
+  color: var(--vp-button-alt-text);
+}
+
+a.custom-alt:hover {
+  border-color: var(--vp-button-alt-hover-border);
+  background-color: var(--vp-button-alt-hover-bg);
+  color: var(--vp-button-alt-hover-text);
+}
+
+a.custom-alt:active {
+  border-color: var(--vp-button-alt-active-border);
+  background-color: var(--vp-button-alt-active-bg);
+  color: var(--vp-button-alt-active-text);
+}
+
+a.custom-alt::before {
+  display: inline-block;
+  transform: translateY(7px);
+  margin-right: 0.5em;
+  background-image: var(--Home-links-custom-alt);
+  background-position: bottom;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  content: '';
+}
