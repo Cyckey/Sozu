@@ -23,11 +23,6 @@
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/cyckey/sozu/blob/main/LICENSE) file for details.
-
-It also uses third-party libraries, including:
-
-- [Lumen](https://github.com/Theo-Messi/lumen), which is licensed under the [MIT License](https://github.com/Theo-Messi/lumen/blob/main/License).
-
 ## Acknowledgements
 
 - [VitePress](https://vitepress.dev/)
