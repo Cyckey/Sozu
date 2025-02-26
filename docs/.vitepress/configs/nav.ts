@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.NavItem[] = [
   {
     text: '<iconify-icon icon="fa6-solid:bolt" style="margin-right:0.25em;color:#63E6BE;"></iconify-icon>Get Started',
-    link: '/websites'
+    link: '/start'
   },
   {
     text: '<iconify-icon icon="fa6-solid:book" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Main Pages',

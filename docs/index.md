@@ -19,7 +19,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /websites
+      link: /start
 
     - theme: sponsor
       text: ✨ Contribute

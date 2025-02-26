@@ -3,6 +3,10 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Sidebar = {
   '/': [
     {
+      text: '<iconify-icon icon="fa6-solid:bolt" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Quick Start',
+      link: '/start'
+    },
+    {
       text: '<iconify-icon icon="fa6-solid:book" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Main Pages',
       items: [
         { text: '<iconify-icon icon="mdi:globe" style="margin-right:0.25em;color:#f39c12;"></iconify-icon>Websites', link: '/websites' },
@@ -26,12 +30,12 @@ export const sidebar: DefaultTheme.Sidebar = {
         { 
           text: '<span style="font-size:0.9em;color:#666;">Items marked with <iconify-icon icon="twemoji:star" style="margin:0 0.2em;color:#ffd700;vertical-align:-0.15em;"></iconify-icon> are the very best!</span>',
           link: ''
-        },
-        {
-          text: '<iconify-icon icon="mdi:handshake" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Credits',
-          link: '/credits'
         }
       ]
+    },
+    {
+      text: '<iconify-icon icon="mdi:handshake" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Credits',
+      link: '/credits'
     }
   ]
 }
