@@ -62,3 +62,15 @@ a.custom-alt::before {
   height: 24px;
   content: '';
 }
+
+a.link::before {
+  background-image: none !important;
+}
+
+/* Remove arrows from all links */
+a::before,
+a::after {
+    content: none !important;
+    background-image: none !important;
+    display: none !important;
+}
