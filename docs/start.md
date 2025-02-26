@@ -1,4 +1,4 @@
-# <iconify-icon icon="mdi:rocket-launch" style="margin-right:0.25em;color:#3498db;"></iconify-icon> Quick Start Guide
+# <iconify-icon icon="fa6-solid:bolt" style="margin-right:0.25em;color:#63E6BE;"></iconify-icon> Quick Start Guide
 
 ## Welcome to Sozu!
 
@@ -35,12 +35,18 @@ Sozu is a comprehensive wiki for all your anime, manga, novel, and Asian content
 - **Android app**: Try [<Pill name="LN Reader" />](/apps#novels)
 - **PC app**: Try [<Pill name="Calibre" />](/apps#novels-1)
 
+### "I want to watch Asian dramas and shows"
+
+- **Streaming websites**: Check out [GoPlay](https://goplay.su) or [Kisskh](https://kisskh.co)
+- **More options**: Browse our [<Pill name="Asian Content" />](/websites#asian-content) section
+
 ## Guides
 
 We have detailed guides for specific topics:
 
 - [<Pill name="IRC Guide" />](/guide/irc) - How to download anime via IRC
 - [<Pill name="Extension Repos" />](/guide/extension-repos) - For Aniyomi and similar apps
+- [<Pill name="Torrenting" />](/guide/torrenting/getting-started) - Everything you need to know about torrenting
 
 ## Finding the Best Options
 

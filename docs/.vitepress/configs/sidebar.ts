@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Sidebar = {
   '/': [
     {
-      text: '<iconify-icon icon="fa6-solid:bolt" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Quick Start',
+      text: '<iconify-icon icon="fa6-solid:bolt" style="margin-right:0.25em;color:#63E6BE;"></iconify-icon>Quick Start',
       link: '/start'
     },
     {
@@ -16,11 +16,18 @@ export const sidebar: DefaultTheme.Sidebar = {
       ]
     },
     {
-      text: '<iconify-icon icon="mdi:scroll" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Guides',
+      text: '<iconify-icon icon="fa6-solid:scroll" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Guides',
       collapsed: true,
       items: [
         { text: '<iconify-icon icon="mdi:chat-processing" style="margin-right:0.25em;color:#3498db;"></iconify-icon>IRC', link: '/guide/irc' },
-        { text: '<iconify-icon icon="mdi:package-variant" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Extension Repos', link: '/guide/extension-repos' }
+        { text: '<iconify-icon icon="mdi:package-variant" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Extension Repos', link: '/guide/extension-repos' },
+        { 
+          text: '<iconify-icon icon="mdi:download" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Torrenting',
+          collapsed: true,
+          items: [
+            { text: 'Getting Started', link: '/guide/torrenting/getting-started' },
+          ]
+        }
       ]
     },
     {

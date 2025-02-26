@@ -15,7 +15,7 @@
 
 ### Download
 ::: tip 
-See [thewiki.moe](https://thewiki.moe/getting-started/torrenting) if you're unfamiliar with how to torrent
+See [our torrenting guide](/guide/torrenting/getting-started) if you're unfamiliar with how to torrent
 :::
 #### Torrenting
 - [<Pill name="Nyaa" icon="twemoji:star" color="yellow" />](https://nyaa.si)

@@ -67,3 +67,11 @@
 - [<Pill name="Selecton" />](https://github.com/emvaized/selecton-extension)
 - [<Pill name="FastStream" />](https://faststream.online/)
 - [<Pill name="FastForward" />](https://fastforward.team/)
+
+## VPN
+- [<Pill name="Mullvad" icon="twemoji:star" color="yellow" />](https://mullvad.net/)
+- [<Pill name="ProtonVPN" icon="twemoji:star" color="yellow" />](https://protonvpn.com/)
+- [<Pill name="IVPN" />](https://www.ivpn.net/)
+- [<Pill name="Windscribe" />](https://windscribe.com/)
+- [<Pill name="AirVPN" />](https://airvpn.org/)
+- [<Pill name="Private Internet Access" />](https://www.privateinternetaccess.com/)

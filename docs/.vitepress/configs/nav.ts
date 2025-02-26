@@ -15,6 +15,17 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
+    text: '<iconify-icon icon="fa6-solid:scroll" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Guides',
+    items: [
+      { text: '<iconify-icon icon="mdi:chat-processing" style="margin-right:0.25em;color:#3498db;"></iconify-icon>IRC', link: '/guide/irc' },
+      { text: '<iconify-icon icon="mdi:package-variant" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Extension Repos', link: '/guide/extension-repos' },
+      { 
+        text: '<iconify-icon icon="mdi:download" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Torrenting', 
+        link: '/guide/torrenting/getting-started'
+      }
+    ]
+  },
+  {
     text: '<iconify-icon icon="fa6-solid:bug" style="margin-right:0.25em;color:#FF4500;" alt="bug"></iconify-icon>Submit Feedback',
     link: 'https://github.com/cyckey/sozu/issues'
   }
