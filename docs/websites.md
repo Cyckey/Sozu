@@ -3,7 +3,7 @@
 ## Anime
 
 ### Streaming
-- [<Pill name="AnimeKai" icon="twemoji:star" color="yellow" />](https://animekai.to)
+- [<Pill name="AnimeKai" icon="twemoji:star" color="yellow" />](https://animekai.to) [2](https://animekai.bz)
 - [<Pill name="AnimeStream" />](https://anime.uniqstream.net)
 - [<Pill name="Miruro" />](https://miruro.tv) [Proxies](https://miruro.com)
 - [<Pill name="Animepahe" />](https://animepahe.ru)
