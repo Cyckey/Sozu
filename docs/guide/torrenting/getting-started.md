@@ -60,7 +60,7 @@ Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to sh
 
 ## Recommended Clients
 ::: tip
-Its reccomended to use a vpn when torrenting to avoid any issues with your internet provider.
+Its recomended to use a vpn when torrenting to avoid any issues with your internet provider.
 You can find a list of recommended vpns [here](/tools#vpn)
 :::
 ### PC
