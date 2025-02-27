@@ -26,4 +26,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Acknowledgements
 
 - [VitePress](https://vitepress.dev/)
-- [Lumen](https://github.com/Theo-Messi/lumen)
+- [@theojs/lumen](https://github.com/Theo-Messi/lumen)
