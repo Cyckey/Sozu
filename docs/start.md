@@ -48,10 +48,6 @@ We have detailed guides for specific topics:
 - [<Pill name="Extension Repos" />](/guide/extension-repos) - For Aniyomi and similar apps
 - [<Pill name="Torrenting" />](/guide/torrenting/getting-started) - Everything you need to know about torrenting
 
-## Finding the Best Options
-
-Look for items marked with <iconify-icon icon="twemoji:star" style="margin:0 0.2em;color:#ffd700;vertical-align:-0.15em;"></iconify-icon> - these are our top recommendations!
-
 ## Contribute
 
 Found something missing? Have a suggestion?
