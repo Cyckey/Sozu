@@ -26,6 +26,8 @@ export const sidebar: DefaultTheme.Sidebar = {
           collapsed: true,
           items: [
             { text: 'Getting Started', link: '/guide/torrenting/getting-started' },
+            { text: 'Glossary', link: '/guide/torrenting/glossary' },
+            { text: 'Private Trackers', link: '/guide/torrenting/private-trackers' }
           ]
         }
       ]

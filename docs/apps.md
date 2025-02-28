@@ -7,9 +7,11 @@ If you are using Aniyomi, Dantotsu, Mangayomi, AnymeX, etc., follow this guide: 
 - [<Pill name="Aniyomi" icon="twemoji:star" color="yellow" />](https://aniyomi.org/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/aniyomiorg/aniyomi) 
 - [<Pill name="Dantotsu" />](https://dantotsuapp.netlify.app/install) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/rebelonion/Dantotsu)
 - [<Pill name="CloudStream" />](https://cloudstream.on.fleek.co/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/recloudstream/cloudstream)
+- [<Pill name="Shiru" />](https://github.com/RockinChaos/Shiru)
 - [<Pill name="Migu" />](https://miguapp.pages.dev/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/NoCrypt/migu)
 - [<Pill name="Mangayomi" />](https://github.com/kodjodevf/mangayomi)
 - [<Pill name="AnymeX" />](https://anymex.vercel.app/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/RyanYuuki/AnymeX)
+- [<Pill name="Dartotsu" />](https://github.com/aayush2622/Dartotsu) 
 - [<Pill name="AnimeTV" />](https://amarullz.com/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/amarullz/AnimeTV)
 - [<Pill name="Miru" />](https://miru.js.org/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/miru-project/miru-app)
 ### Manga
@@ -42,6 +44,7 @@ If you are using Aniyomi, Dantotsu, Mangayomi, AnymeX, etc., follow this guide: 
 - [<Pill name="Miru" icon="twemoji:star" color="yellow" />](https://miru.watch/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/ThaUnknown/miru)  <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
 - [<Pill name="Seanime" />](https://seanime.rahim.app/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/5rahim/seanime)  <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
 - [<Pill name="AnymeX" />](https://anymex.vercel.app/) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/RyanYuuki/AnymeX)  <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
+- [<Pill name="Dartotsu" />](https://github.com/aayush2622/Dartotsu) [<iconify-icon icon="mdi:github"></iconify-icon>](https://github.com/aayush2622/Dartotsu) <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
 - [<Pill name="Unyo" />](https://github.com/K3vinb5/Unyo)  <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
 - [<Pill name="Zenshin" />](https://github.com/hitarth-gg/zenshin) <iconify-icon icon="mdi:microsoft-windows"></iconify-icon> <iconify-icon icon="mdi:apple"></iconify-icon> <iconify-icon icon="simple-icons:linux"></iconify-icon>
 - [<Pill name="Totoro" />](https://github.com/insomniachi/Totoro) <iconify-icon icon="mdi:microsoft-windows"></iconify-icon>

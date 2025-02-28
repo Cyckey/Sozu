@@ -1,36 +1,33 @@
-# Torrent Guide
+# What is a Torrent?
 
-## What is a Torrent?
-
-Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to share files directly with each other rather than downloading from a central server.
+Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to share files directly with each other rather than downloading from a central server. This decentralized approach enhances download speeds and reduces strain on individual servers.
 
 ### How Torrenting Works
 
 1. **Decentralized System**: Unlike traditional downloads where you get a file from a single server, torrenting distributes the downloading process across multiple users (peers).
-
 2. **Key Components**:
    - **Seeders**: Users who have the complete file and share it
-   - **Leechers**: Users who are downloading the file and only have portions
-   - **Trackers**: Servers that coordinate connections between peers
+   - **Leechers**: Users who are downloading the file (may share partial content)
+   - **Trackers**: Servers that coordinate connections between peers (DHT/PEX can bypass)
    - **Torrent File/Magnet Link**: Contains metadata needed to find and download the content
+   - **Swarm**: Collective group of all peers (seeders + leechers) sharing a torrent
 
 3. **Process**:
-   - You download a small .torrent file or click a magnet link
-   - Your torrent client connects to trackers and other peers
-   - You download pieces of the file from multiple sources simultaneously
-   - Once you have the complete file, you can continue "seeding" (sharing) with others
+   - Download a .torrent file (metadata) or use a magnet link (trackerless)
+   - Torrent client connects to trackers/swarm using the metadata
+   - File is downloaded in pieces from multiple sources simultaneously
+   - Completed files are automatically shared (seeded) with others
 
 ## Getting Started
 
 ### Basic Torrent Usage
 
-1. **Install a torrent client** from the recommendations below
-2. **Find a torrent** from a reputable source (usually a .torrent file or magnet link)
-3. **Open the torrent** in your client (either by clicking the magnet link or opening the .torrent file)
-4. **Select download location** and which files to download (if applicable)
-5. **Wait for download** to complete
-6. **Consider seeding** after downloading to help the community
-
+1. **Install a torrent client** (qBittorrent recommended)
+2. **Find a torrent** via .torrent file or magnet link
+3. **Open in client** (magnet links auto-start, .torrent files need manual import)
+4. **Select download location/files**
+5. **Monitor download progress** (speed depends on seeders/your connection)
+6. **Seed after completion** (maintain at least 1:1 ratio)
 
 ## Important Considerations
 
@@ -38,67 +35,70 @@ Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to sh
 
 > **Warning**: Always prioritize your privacy and security when torrenting.
 
-- **Use a VPN**: Your IP address is visible to other peers when torrenting
-- **Check files before opening**: Use antivirus software to scan downloaded files
-- **Verify sources**: Download torrents from reputable sites only
+- **Use a VPN**: Essential to hide IP from peers/ISP (avoid free VPNs)
+- **Port Forwarding**: Improves connectivity (enable in client/router)
+- **Seedbox Alternative**: Dedicated server for torrenting (avoids local risks)
+- **Verify files**: Scan downloads with antivirus software
+- **Trusted Sources**: Use reputable trackers like Nyaa.si
 
-### Download Speed Factors
+### Speed Optimization
 
-- **Number of seeders**: More seeders generally means faster downloads
-- **Your internet connection**: Download speed can't exceed your ISP limits
-- **Peer limits**: Adjusting connection settings in your client can optimize speeds
+- **Seeder Count**: More seeders = faster downloads
+- **Open Ports**: Use port forwarding for better peer connections
+- **Client Settings**: Adjust connection limits/throttling
+- **Peer Priority**: Connect to seeders with open ports (green indicators)
 
 ### Terminology
 
 | Term | Definition |
 |------|------------|
-| **Ratio** | The amount you've uploaded divided by the amount you've downloaded |
-| **Swarm** | The group of all peers connected to a torrent |
-| **DHT/PEX** | Technologies that help find peers without trackers |
-| **Private Tracker** | Invite-only torrent communities with specific rules |
-
+| **Ratio** | Uploaded vs downloaded data (1:1 = 100%) |
+| **Piece** | File segment distributed through swarm |
+| **Magnet Link** | Trackerless torrent initiation URI |
+| **Private Tracker** | Invite-only communities with ratio rules |
+| **Connectability** | Ability to receive incoming connections (requires open port) |
 
 ## Recommended Clients
 ::: tip
-Its recomended to use a vpn when torrenting to avoid any issues with your internet provider.
-You can find a list of recommended vpns [here](/tools#vpn)
+For optimal safety: 
+- Use VPN with kill switch
+- Bind client to VPN interface
+- Consider seedbox for passive seeding
 :::
+
 ### PC
 - [<Pill name="qBittorrent" icon="twemoji:star" color="yellow" />](https://www.qbittorrent.org) 
-- [<Pill name="BiglyBT" />](https://www.biglybt.com/) 
+- [<Pill name="Deluge" />](https://www.deluge-torrent.org/) 
 
 ### Android
 - [<Pill name="LibreTorrent" icon="twemoji:star" color="yellow" />](https://github.com/proninyaroslav/libretorrent) 
-- [<Pill name="BiglyBT" />](https://play.google.com/store/apps/details?id=com.biglybt.android.client) 
-### iOS
-- [<Pill name="Gopeed" />](https://gopeed.com/) 
+- [<Pill name="Flud" />](https://play.google.com/store/apps/details?id=com.delphicoder.flud)
 
+## Advanced Configuration
 
-## Recommended Websites
+### Port Forwarding Guide
+1. Check client's listening port (qBittorrent: Tools → Options → Connection)
+2. Access router settings via default gateway (192.168.0.1 etc)
+3. Forward TCP/UDP ports (use 49152+ to avoid ISP blocking)
+4. Verify with [CanYouSeeMe.org](https://canyouseeme.org)
 
-### Anime Torrents
-- [<Pill name="Nyaa" icon="twemoji:star" color="yellow" />](https://nyaa.si) 
+### VPN Integration
+- **Split Tunneling**: Route only torrent traffic through VPN
+- **VPN Port Forwarding**: Services like AirVPN/ProtonVPN offer torrent-optimized ports
+- **Kill Switch**: Prevent IP leaks if VPN disconnects
 
-- [<Pill name="AnimeTosho" />](https://animetosho.org) 
-
-> you can find more anime torrent sites [here](/websites#torrenting)
-
-### Finding Torrents
-
-> **Tip**: Quality over quantity - a few well-seeded torrents from trusted uploaders are better than many questionable ones.
-
-When using these sites:
-1. **Search effectively** - Use specific terms, episode numbers, and quality indicators
-2. **Check seeders** - Higher seeder counts mean faster downloads
-3. **Look for trusted uploaders** - Many sites have verified or trusted uploader systems
-4. **Compare file sizes** - Unusually small or large files might indicate poor quality
+### Seedbox Benefits
+- 24/7 seeding without local resources
+- High-speed ratios on private trackers
+- Integrated media servers/automation
+- Geographic redundancy for rare torrents
 
 ## Important Notes
-
-::: info Good Torrenting Practices
-Being a good member of the torrenting community helps everyone have a better experience.
+::: info Good Practices
+Maintain healthy ratios (2:1+ on private trackers)
 :::
 
-- **Seed after downloading**: Aim for at least a 1:1 ratio when possible
-- **Respect bandwidth limits**: Configure your client to not overwhelm your network
-- **Follow tracker rules**: Private trackers often have specific requirements
+- **Seed Responsibly**: Don't hit-and-run
+- **Respect Throttling**: Limit uploads during active use
+- **Verify Content**: Report bad torrents
+- **Support Trackers**: Don't share private tracker invites publicly

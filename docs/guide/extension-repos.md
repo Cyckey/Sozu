@@ -1,50 +1,101 @@
-# <iconify-icon icon="mdi:package-variant" style="margin-right:0.25em;color:#3498db;"></iconify-icon> Extension Repositories Guide
+# <iconify-icon icon="mdi:package-variant" style="margin-right:0.25em;color:#3498db;"></iconify-icon> Extension Repositories
 
-## Recommended Repositories
+## Recommended Repositories 
 
-### Aniyomi
-- **Dark25**  
-[<Pill name="Install" icon="material-symbols:download" color="blue" />](aniyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2FDark25%2Faniyomi-extensions%2Frepos%2Findex.min.json)
+### Aniyomi Sources
 
+- **Dark25 Repository**  
+  [<Pill icon="material-symbols:download" color="#2ecc71">Install Repository</Pill>](aniyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2FDark25%2Faniyomi-extensions%2Frepos%2Findex.min.json)
   ```url
   https://raw.githubusercontent.com/Dark25/aniyomi-extensions/repos/index.min.json
   ```
-  
-- **Kohi den**  
-[<Pill name="Install" icon="material-symbols:download" color="blue" />](aniyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2FKohi-den%2Fextensions%2Fmain%2Findex.min.json)
 
+- **Kohi den Repository**  
+  [<Pill icon="material-symbols:download" color="#e67e22">Install Repository</Pill>](aniyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2FKohi-den%2Fextensions%2Fmain%2Findex.min.json)
   ```url
   https://raw.githubusercontent.com/Kohi-den/extensions/main/index.min.json
   ```
 
-### Mangayomi
-- **Keiyoushi**  
-[<Pill name="Install" icon="material-symbols:download" color="blue" />](tachiyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeiyoushi%2Fextensions%2Frepo%2Findex.min.json)
+###  Mangayomi Sources
 
+- **Keiyoushi Repository**  
+  [<Pill icon="material-symbols:download" color="#9b59b6">Install Repository</Pill>](tachiyomi://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeiyoushi%2Fextensions%2Frepo%2Findex.min.json)
   ```url
   https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
   ```
 
-## Installation Methods
 
-### Automatic Install
-Click the install button in the [<Pill name="Recommended Repositories" />](#recommended-repositories) section
+::: warning Security First
+Always verify repository sources before installation. Untrusted repositories may contain:
+- Malicious code
+- Outdated extensions
+- Unmaintained content
+:::
 
-### Manual Installation
-1. Copy repository URL from our [<Pill name="Recommended Repositories" />](#recommended-repositories) section
+## Installation Guide
 
+### Quick Installation
+<Steps>
+<Step>
+
+**1. Select Repository**  
+Choose from our recommended list above
+</Step>
+<Step>
+
+**2. Initiate Installation**  
+Click the <Pill icon="material-symbols:download" small>Install Repository</Pill> button
+</Step>
+<Step>
+
+**3. Confirm Installation**  
+Accept the security prompt in your app
+</Step>
+<Step>
+
+**4. Access Extensions**  
+Find new extensions in:  
+```navigational-path
+Browse → Extensions → [Repository Name]
+```
+</Step>
+</Steps>
+
+### Manual Setup 
 #### Aniyomi
-2. Follow this path in your app:
-   ```navigational-path
-   Settings → Extensions → Repositories → Add
-   ```
-3. Paste URL into the input field
-4. Confirm with "Add" button
+
+<Steps>
+<Step>
+
+**Navigate to Repository Settings**  
+```navigational-path
+Settings → Extensions → Repositories → Add
+```
+</Step>
+<Step>
+
+**Paste Repository URL**  
+```url-box
+https://raw.githubusercontent.com/[user]/[repo]/branch/index.min.json
+```
+</Step>
+</Steps>
 
 #### Mangayomi
-2. Follow this path in your app:
-   ```navigational-path
-   Settings → Browse → Extension Repos → Add
-   ```
-3. Paste URL into the input field
-4. Confirm with "Add" button
+
+<Steps>
+<Step>
+
+**Access Extension Repos**  
+```navigational-path
+Settings → Browse → Extension Repos → Add
+```
+</Step>
+<Step>
+
+**Input Repository URL**  
+```url-box
+https://raw.githubusercontent.com/[user]/[repo]/branch/index.min.json
+```
+</Step>
+</Steps>
