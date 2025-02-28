@@ -11,6 +11,7 @@ export const nav: DefaultTheme.NavItem[] = [
       { text: '<iconify-icon icon="mdi:globe" style="margin-right:0.25em;color:#f39c12;"></iconify-icon>Websites', link: '/websites' },
       { text: '<iconify-icon icon="mdi:cellphone" style="margin-right:0.25em;color:#e74c3c;"></iconify-icon>Apps', link: '/apps' },
       { text: '<iconify-icon icon="mdi:tools" style="margin-right:0.25em;color:#3498db;"></iconify-icon>Tools', link: '/tools' },
+        { text: '<iconify-icon icon="mdi:file" style="margin-right:0.25em;color:#FF6347;"></iconify-icon>Misc Sites', link: '/misc-sites' }
       { text: '<iconify-icon icon="mdi:alert-circle" style="margin-right:0.25em;color:#2ecc71;"></iconify-icon>NSFW', link: '/nsfw' }
     ]
   },
