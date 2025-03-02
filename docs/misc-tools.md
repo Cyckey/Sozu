@@ -1,4 +1,4 @@
-# <iconify-icon icon="mdi:file" style="margin-right:0.25em;color:#FF6347;"></iconify-icon>  Misc Sites
+# <iconify-icon icon="mdi:file" style="margin-right:0.25em;color:#FF6347;"></iconify-icon>  Misc Tools
 
 ## Utilities
 
@@ -26,11 +26,4 @@
 - [<Pill name="AnimeDB" />](https://animedb.jp) 
 
 ### Manga Trackers
-- [<Pill name="Baka-Updates" icon="twemoji:star" color="yellow" />](https://www.mangaupdates.com)
-
-### Music Databases
-- [<Pill name="Anison" />](https://anison.info) 
-- [<Pill name="VGMdb" />](https://vgmdb.net) 
-
-### Extra
-- [<Pill name="Sekai" icon="twemoji:star" color="yellow" />](https://sekai.rl404.com/) 
+- [<Pill name="Baka-Updates" icon="twemoji:star" color="yellow" />](https://www.mangaupdates.com) 
