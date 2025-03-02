@@ -20,7 +20,8 @@ Sozu is a comprehensive wiki for all your anime, manga, novel, and Asian content
 
 - **Streaming websites**: Check out [AnimeKai](https://animekai.to) or [Miruro](https://miruro.tv)
 - **Android app**: Try [<Pill name="Aniyomi" />](https://aniyomi.org/) or [<Pill name="Dantotsu" />](https://dantotsuapp.netlify.app/install)
-- **iOS app**: Try [<Pill name="AnymeX" />](https://anymex.vercel.app/) or [<Pill name="Ketsu" />](https://ketsu.app/) - **PC app**: Try [<Pill name="Miru" />](https://miru.watch/) or [<Pill name="Seanime" />](https://seanime.rahim.app/)
+- **iOS app**: Try [<Pill name="AnymeX" />](https://anymex.vercel.app/) or [<Pill name="Ketsu" />](https://ketsu.app/)
+- **PC app**: Try [<Pill name="Miru" />](https://miru.watch/) or [<Pill name="Seanime" />](https://seanime.rahim.app/)
 
 ### "I want to read manga"
 
