@@ -10,17 +10,14 @@ export const search = {
        * to help ensure content in custom components gets indexed properly
        */
       options: {
-        // Include custom components like Links, Box, BoxCube, and Pill
         extractField: (document, fieldName) => {
           if (fieldName === 'content') {
-            // Extract content from Vue component tags to include in search
             const content = document[fieldName] || ''
             return content
           }
           return document[fieldName]
         }
       },
-      // Widen search parameters to catch more content
       searchOptions: {
         fuzzy: 0.3,
         prefix: true,
@@ -28,13 +25,11 @@ export const search = {
           title: 4,
           text: 2,
           titles: 1,
-          // Give weight to link names and descriptions
           name: 3,
           desc: 2
         }
       }
     },
-    // Additional localization options
     locales: {
       root: {
         translations: {

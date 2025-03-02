@@ -32,7 +32,11 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: '<iconify-icon icon="mdi:music" style="margin-right:0.25em;color:#9b59b6;"></iconify-icon>Vocaloid',
-    items: [{ text: 'Vocaloid Types', link: '/vocaloid/types' }]
+    items: [
+      { text: 'What is Vocaloid?', link: '/vocaloid/what-is-vocaloid' },
+      { text: 'Vocaloid Types', link: '/vocaloid/types' },
+      { text: 'Vocaloid Resources', link: '/vocaloid/resources' }
+    ]
   },
   {
     text: '<iconify-icon icon="fa6-solid:scroll" style="margin-right:0.25em;color:#ffd700;"></iconify-icon>Guides',

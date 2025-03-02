@@ -55,11 +55,6 @@ Sozu is a comprehensive wiki for all your anime, manga, novel, and Asian content
 - **Image search**: Use [SauceNAO](https://saucenao.com/) or [Trace.moe](https://trace.moe/)
 - **More utilities**: Check our [<Pill name="Utilities" />](/misc-tools#utilities) section
 
-### "I'm interested in Vocaloid"
-
-- **Learn about types**: Check our [<Pill name="Vocaloid Types" />](/vocaloid/types) guide
-- **Explore voice banks**: Learn about different [<Pill name="Language Types" />](/vocaloid/types#language-types) and [<Pill name="Voice Ranges" />](/vocaloid/types#voice-range-classifications)
-
 ## Guides
 
 We have detailed guides for specific topics:
