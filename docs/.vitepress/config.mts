@@ -73,10 +73,11 @@ export default defineConfig({
     sidebar,
 
     socialLinks,
-    search: { provider: 'local', options: search },
+    search: search,
     notFound: {
       title: 'Page Not Found',
-      quote: 'The page you are looking for does not exist. It may have gone on an adventure!',
+      quote:
+        'The page you are looking for does not exist. It may have gone on an adventure!',
       linkLabel: 'Return to Homepage to Explore',
       linkText: 'Return to Homepage',
       code: '404'

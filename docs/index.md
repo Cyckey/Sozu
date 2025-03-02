@@ -13,7 +13,7 @@ hero:
     alt: 'Sozu'
 
   prelink:
-    title: '🎉 February Update!'
+    title: '🎉 Update Log'
     link: /updates
 
   actions:
@@ -22,7 +22,7 @@ hero:
       link: /start
 
     - theme: sponsor
-      text: ✨ Contribute
+      text: Contribute
       link: https://github.com/cyckey/sozu/issues
 
 features:

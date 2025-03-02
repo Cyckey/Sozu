@@ -11,11 +11,14 @@
     "dev": "pnpm -F=docs dev",
     "format": "prettier --write .",
     "format:cheak": "prettier --check .",
+    "postinstall": "simple-git-hooks",
     "preview": "pnpm -F=docs preview",
-    "release": "cd src && pnpm release"
+    "release": "cd src && pnpm release",
+    "update-logs": "node scripts/update-logs.js"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "pnpm lint-staged",
+    "post-commit": "pnpm update-logs && git add docs/updates.md && git commit --amend --no-edit --no-verify || true"
   },
   "lint-staged": {
     "*": [

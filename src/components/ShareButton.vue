@@ -19,7 +19,7 @@ const shareLink = useShareLink()
           : ShareButton.buttonText || 'Share this page'
       "
       aria-live="polite"
-      @click="copyLink(shareLink)"
+      @click="copyLink(shareLink.value)"
     >
       <h1 v-if="!copied" class="buttonText">
         <Icon
