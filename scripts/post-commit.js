@@ -32,7 +32,7 @@ function main() {
     console.log('Amending commit with updated logs...')
     execSync('git add docs/updates.md', { stdio: 'inherit' })
     execSync('git commit --amend --no-edit --no-verify', { stdio: 'inherit' })
-    
+
     console.log('Successfully updated logs and amended commit')
   } catch (error) {
     console.error('Error in post-commit hook:', error)

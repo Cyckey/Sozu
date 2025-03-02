@@ -14,11 +14,11 @@
     "postinstall": "simple-git-hooks",
     "preview": "pnpm -F=docs preview",
     "release": "cd src && pnpm release",
-    "update-logs": "node scripts/update-logs.js"
+    "update-logs": "node scripts/update-logs.js",
+    "update-logs-and-commit": "node scripts/update-logs.js && git add docs/updates.md && git commit -m \"Update logs\" --no-verify"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged",
-    "post-commit": "node scripts/post-commit.js"
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": [
