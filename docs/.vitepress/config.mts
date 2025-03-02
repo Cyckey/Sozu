@@ -13,12 +13,7 @@ export default defineConfig({
   lang: 'en-US',
   cleanUrls: true,
   metaChunk: true,
-  lastUpdated: {
-    text: 'Last updated',
-    formatOptions: {
-      dateStyle: 'long'
-    }
-  },
+  lastUpdated: true,
   head,
   markdown,
 
@@ -73,7 +68,7 @@ export default defineConfig({
     sidebar,
 
     socialLinks,
-    search: search,
+    search,
     notFound: {
       title: 'Page Not Found',
       quote:

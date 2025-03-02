@@ -1,7 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 
-export const search: DefaultTheme.LocalSearchOptions = {
-  provider: 'local',
+export const search = {
+  provider: 'local' as const,
   options: {
     detailedView: true,
     miniSearch: {

@@ -12,10 +12,6 @@ hero:
     src: '/Logo.gif'
     alt: 'Sozu'
 
-  prelink:
-    title: '🎉 Update Log'
-    link: /updates
-
   actions:
     - theme: brand
       text: Get Started
