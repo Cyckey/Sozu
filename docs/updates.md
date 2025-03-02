@@ -4,7 +4,8 @@ Below are the commit logs from the GitHub repository, organized by month.
 
 ## March 2025
 
-- **March 2, 2025**: More fixes [`10d6411`](https://github.com/Cyckey/Sozu/commit/10d6411e55db2bd301d656c56d93ab6a1f4c1f7e)
+- **March 2, 2025**: Fix infinite loop in post-commit hook [`bc37dac`](https://github.com/Cyckey/Sozu/commit/bc37dace41c6e8928e3e999c149217dc392220b9)
+- **March 2, 2025**: More fixes [`3f36b11`](https://github.com/Cyckey/Sozu/commit/3f36b11a61d3a7d1880c8cdc55449ac9a0d2d84b)
 - **March 2, 2025**: Few changes [`09d9fc2`](https://github.com/Cyckey/Sozu/commit/09d9fc2d3fee682c3ca61ee4c9bc7c83c740e2b8)
 - **March 2, 2025**: misc sites fix [`4f15535`](https://github.com/Cyckey/Sozu/commit/4f15535ec3ccf4a14a4c9142ef94a5ade8247b8b)
 
