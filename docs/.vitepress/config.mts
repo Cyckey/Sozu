@@ -44,7 +44,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: `Sozu`,
 
-    logo: { src: '/Logo.gif', width: 24, height: 24, alt: 'Sozu Logo' },
+    logo: { src: '/nav-logo.png', width: 24, height: 24, alt: 'Sozu Logo' },
 
     editLink: {
       pattern: 'https://github.com/cyckey/sozu/edit/main/docs/:path',
