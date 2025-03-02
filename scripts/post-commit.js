@@ -1,30 +1,24 @@
 #!/usr/bin/env node
 
 const { execSync } = require('child_process')
+const fs = require('fs')
 const path = require('path')
 
-// Check if the commit message already contains our marker
-function isUpdateLogsCommit() {
-  try {
-    const commitMsg = execSync('git log -1 --pretty=%B', {
-      encoding: 'utf-8'
-    }).trim()
-    return commitMsg.includes('[update logs]')
-  } catch (error) {
-    console.error('Error checking commit message:', error)
-    return true // Assume it's an update logs commit to prevent potential loops
-  }
-}
+// Path to marker file
+const MARKER_FILE = path.join(__dirname, '.post-commit-running')
 
 // Main function
 function main() {
-  // If this is already an update logs commit, exit
-  if (isUpdateLogsCommit()) {
-    console.log('This is already an update logs commit, skipping')
+  // Check if marker file exists (indicating hook is already running)
+  if (fs.existsSync(MARKER_FILE)) {
+    console.log('Post-commit hook is already running, exiting to prevent loop')
     return
   }
 
   try {
+    // Create marker file
+    fs.writeFileSync(MARKER_FILE, 'running', 'utf-8')
+
     // Run the update-logs script
     console.log('Running update-logs script...')
     execSync('pnpm update-logs', { stdio: 'inherit' })
@@ -33,17 +27,24 @@ function main() {
     const commitMsg = execSync('git log -1 --pretty=%B', {
       encoding: 'utf-8'
     }).trim()
-
+    
     // Add the updated file and amend the commit
     console.log('Amending commit with updated logs...')
     execSync('git add docs/updates.md', { stdio: 'inherit' })
-    execSync(`git commit --amend -m "${commitMsg} [update logs]" --no-verify`, {
-      stdio: 'inherit'
-    })
-
+    execSync('git commit --amend --no-edit --no-verify', { stdio: 'inherit' })
+    
     console.log('Successfully updated logs and amended commit')
   } catch (error) {
     console.error('Error in post-commit hook:', error)
+  } finally {
+    // Always remove marker file when done
+    try {
+      if (fs.existsSync(MARKER_FILE)) {
+        fs.unlinkSync(MARKER_FILE)
+      }
+    } catch (error) {
+      console.error('Error removing marker file:', error)
+    }
   }
 }
 
