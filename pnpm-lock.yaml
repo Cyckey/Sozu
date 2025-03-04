@@ -32,9 +32,6 @@ importers:
       prettier-plugin-sort-json:
         specifier: ^4.1.1
         version: 4.1.1(prettier@3.5.0)
-      simple-git-hooks:
-        specifier: ^2.11.1
-        version: 2.11.1
 
   docs:
     dependencies:
@@ -1268,7 +1265,7 @@ packages:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
       prettier:
-    optional: true
+        optional: true
 
   prettier-plugin-sort-json@4.1.1:
     resolution: {integrity: sha512-uJ49wCzwJ/foKKV4tIPxqi4jFFvwUzw4oACMRG2dcmDhBKrxBv0L2wSKkAqHCmxKCvj0xcCZS4jO2kSJO/tRJw==}
@@ -1338,10 +1335,6 @@ packages:
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
-
-  simple-git-hooks@2.11.1:
-    resolution: {integrity: sha512-tgqwPUMDcNDhuf1Xf6KTUsyeqGdgKMhzaH4PAZZuzguOgTl5uuyeYe/8mWgAr6IBxB5V06uqEf6Dy37gIWDtDg==}
-    hasBin: true
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -2835,8 +2828,6 @@ snapshots:
 
   signal-exit@4.1.0: {}
 
-  simple-git-hooks@2.11.1: {}
-
   sisteransi@1.0.5: {}
 
   slice-ansi@5.0.0:
@@ -2968,6 +2959,7 @@ snapshots:
       rollup: 4.34.6
     optionalDependencies:
       fsevents: 2.3.3
+
   vitepress-plugin-group-icons@1.3.5:
     dependencies:
       '@iconify-json/logos': 1.2.4
@@ -3050,4 +3042,3 @@ snapshots:
   yaml@2.7.0: {}
 
   zwitch@2.0.4: {}
-

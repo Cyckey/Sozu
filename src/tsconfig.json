@@ -3,5 +3,5 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom", "dom.iterable"],
     "types": ["vue"]
-  },
+  }
 }

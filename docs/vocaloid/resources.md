@@ -1,6 +1,6 @@
 # Vocaloid Resources
 
-helpful resources for everything Vocaloid.
+Helpful resources for everything Vocaloid.
 
 ## Official Software
 

@@ -6,6 +6,7 @@ Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to sh
 
 1. **Decentralized System**: Unlike traditional downloads where you get a file from a single server, torrenting distributes the downloading process across multiple users (peers).
 2. **Key Components**:
+
    - **Seeders**: Users who have the complete file and share it
    - **Leechers**: Users who are downloading the file (may share partial content)
    - **Trackers**: Servers that coordinate connections between peers (DHT/PEX can bypass)
@@ -50,50 +51,58 @@ Torrenting is a peer-to-peer (P2P) file sharing protocol that allows users to sh
 
 ### Terminology
 
-| Term | Definition |
-|------|------------|
-| **Ratio** | Uploaded vs downloaded data (1:1 = 100%) |
-| **Piece** | File segment distributed through swarm |
-| **Magnet Link** | Trackerless torrent initiation URI |
-| **Private Tracker** | Invite-only communities with ratio rules |
-| **Connectability** | Ability to receive incoming connections (requires open port) |
+| Term                | Definition                                                   |
+| ------------------- | ------------------------------------------------------------ |
+| **Ratio**           | Uploaded vs downloaded data (1:1 = 100%)                     |
+| **Piece**           | File segment distributed through swarm                       |
+| **Magnet Link**     | Trackerless torrent initiation URI                           |
+| **Private Tracker** | Invite-only communities with ratio rules                     |
+| **Connectability**  | Ability to receive incoming connections (requires open port) |
 
 ## Recommended Clients
+
 ::: tip
-For optimal safety: 
+For optimal safety:
+
 - Use VPN with kill switch
 - Bind client to VPN interface
 - Consider seedbox for passive seeding
-:::
+  :::
 
 ### PC
-- [<Pill name="qBittorrent" icon="twemoji:star" color="yellow" />](https://www.qbittorrent.org) 
-- [<Pill name="Deluge" />](https://www.deluge-torrent.org/) 
+
+- [<Pill name="qBittorrent" icon="twemoji:star" color="yellow" />](https://www.qbittorrent.org)
+- [<Pill name="Deluge" />](https://www.deluge-torrent.org/)
 
 ### Android
-- [<Pill name="LibreTorrent" icon="twemoji:star" color="yellow" />](https://github.com/proninyaroslav/libretorrent) 
+
+- [<Pill name="LibreTorrent" icon="twemoji:star" color="yellow" />](https://github.com/proninyaroslav/libretorrent)
 - [<Pill name="Flud" />](https://play.google.com/store/apps/details?id=com.delphicoder.flud)
 
 ## Advanced Configuration
 
 ### Port Forwarding Guide
+
 1. Check client's listening port (qBittorrent: Tools → Options → Connection)
 2. Access router settings via default gateway (192.168.0.1 etc)
 3. Forward TCP/UDP ports (use 49152+ to avoid ISP blocking)
 4. Verify with [CanYouSeeMe.org](https://canyouseeme.org)
 
 ### VPN Integration
+
 - **Split Tunneling**: Route only torrent traffic through VPN
 - **VPN Port Forwarding**: Services like AirVPN/ProtonVPN offer torrent-optimized ports
 - **Kill Switch**: Prevent IP leaks if VPN disconnects
 
 ### Seedbox Benefits
+
 - 24/7 seeding without local resources
 - High-speed ratios on private trackers
 - Integrated media servers/automation
 - Geographic redundancy for rare torrents
 
 ## Important Notes
+
 ::: info Good Practices
 Maintain healthy ratios (2:1+ on private trackers)
 :::

@@ -137,7 +137,7 @@ const props = defineProps<{ items: LinkItem[] }>()
   height: 2em;
 }
 .iconify {
-  flex-shrink: 0; 
+  flex-shrink: 0;
 
   color: var(--iconify-defaultcolor);
   font-size: 2em;

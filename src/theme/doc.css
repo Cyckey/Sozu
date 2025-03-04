@@ -3,13 +3,12 @@
  * -------------------------------------------------------------------------- */
 
 .vp-doc a {
-  -webkit-text-decoration: underline solid;
-  text-decoration: underline solid;
+  text-decoration: none;
   text-underline-offset: 4px;
 }
 
-.vp-doc a:hover {
-  -webkit-text-decoration: underline solid;
+.vp-doc a:hover,
+.vp-doc a:active {
   text-decoration: underline solid;
 }
 

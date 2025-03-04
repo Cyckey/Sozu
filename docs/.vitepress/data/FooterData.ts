@@ -4,5 +4,5 @@ export const Footer_Data: FooterData = {
   author: {
     name: 'cyckey',
     link: 'https://github.com/cyckey'
-  },
+  }
 }

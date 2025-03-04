@@ -181,13 +181,19 @@ export interface VideoProps {
 
 /** ShareButton interface. */
 export interface ShareButtonItem {
-  /** Class name of the button icon, supports Iconify icon library. @default 'solar:share-bold' */
+  /**
+   * Class name of the button icon, supports Iconify icon library. @default
+   * 'solar:share-bold'
+   */
   buttonIcon?: string
 
   /** Text content displayed on the button. @default 'Share this page' */
   buttonText?: string
 
-  /** Class name of the icon displayed after successful copy, supports Iconify icon library. @default 'mdi:thumbs-up' */
+  /**
+   * Class name of the icon displayed after successful copy, supports Iconify
+   * icon library. @default 'mdi:thumbs-up'
+   */
   copiedIcon?: string
 
   /** Text information displayed after successful copy. @default 'Link copied!' */

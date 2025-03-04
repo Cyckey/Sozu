@@ -46,7 +46,7 @@ export default defineConfig({
       text: 'Suggest changes to this page'
     },
 
-    outline: 'deep',
+    outline: 2,
     outlineTitle: 'On this page',
 
     docFooter: { prev: 'Previous', next: 'Next' },

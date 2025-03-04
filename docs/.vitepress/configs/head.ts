@@ -15,16 +15,16 @@ export const head: HeadConfig[] = [
       content: '✨ For all your weeb needs!'
     }
   ],
-  [
-    'meta',
-    { name: 'keywords', content: 'Anime, Manga, Novels, Weeb' }
-  ],
+  ['meta', { name: 'keywords', content: 'Anime, Manga, Novels, Weeb' }],
   ['meta', { name: 'og:type', content: 'website' }],
   ['meta', { name: 'og:locale', content: 'en-US' }],
   ['meta', { name: 'og:site_name', content: 'Sozu' }],
   ['meta', { name: 'og:title', content: 'Sozu' }],
   ['meta', { name: 'og:url', content: 'https://sozu-wiki.netlify.app/' }],
-  ['meta', { name: 'og:image', content: 'https://sozu-wiki.netlify.app/Logo.gif' }],
+  [
+    'meta',
+    { name: 'og:image', content: 'https://sozu-wiki.netlify.app/Logo.gif' }
+  ],
   ['meta', { name: 'og:image:alt', content: 'Sozu Logo' }],
   [
     'meta',

@@ -70,7 +70,7 @@ a.link::before {
 /* Remove arrows from all links */
 a::before,
 a::after {
-    content: none !important;
-    background-image: none !important;
-    display: none !important;
+  display: none !important;
+  background-image: none !important;
+  content: none !important;
 }

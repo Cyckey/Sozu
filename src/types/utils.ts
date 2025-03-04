@@ -7,7 +7,8 @@ import { Prelink, VideoProps } from './types'
 /**
  * Extracts `prelink` information from `frontmatter`.
  *
- * @returns Returns the `prelink` property value of the `hero` object in `frontmatter`, or `undefined` if it does not exist.
+ * @returns Returns the `prelink` property value of the `hero` object in
+ *   `frontmatter`, or `undefined` if it does not exist.
  */
 export const usePrelink = (): ComputedRef<Prelink | undefined> => {
   const { frontmatter } = useData()
@@ -26,7 +27,8 @@ export const isExternal = (link: string): boolean =>
 /**
  * Moves specified DOM elements to the target position.
  *
- * When the component is mounted, replaces the content inside `.VPHero .text` with the content of `#hero-text`.
+ * When the component is mounted, replaces the content inside `.VPHero .text`
+ * with the content of `#hero-text`.
  */
 export const moveDomElements = () => {
   onMounted(() => {
@@ -65,9 +67,11 @@ export const useCopyLink = () => {
 }
 
 /**
- * Video platform configuration. Each platform includes the following properties:
+ * Video platform configuration. Each platform includes the following
+ * properties:
  *
- * - `src`: A function that returns the video embed link, accepting the unique identifier `id` of the video as a parameter.
+ * - `src`: A function that returns the video embed link, accepting the unique
+ *   identifier `id` of the video as a parameter.
  * - `title`: The name of the video player.
  */
 export const video = {
@@ -107,20 +111,28 @@ export const video = {
  * @returns Video configuration object, including `src` and `title`.
  */
 export const getVideo = (props: VideoProps) => {
-  /** If both `is` and `id` are provided, return the configuration for the corresponding video platform. */
+  /**
+   * If both `is` and `id` are provided, return the configuration for the
+   * corresponding video platform.
+   */
   if (props.is && props.id) return video[props.is]
 
   /** If only `id` exists, return the default YouTube video configuration. */
   if (props.id) return video.youtube
 
-  /** If neither `is` nor `id` is provided, and a custom `src` is provided, return the custom video configuration. If `src` is empty, return an empty link. */
+  /**
+   * If neither `is` nor `id` is provided, and a custom `src` is provided,
+   * return the custom video configuration. If `src` is empty, return an empty
+   * link.
+   */
   return { src: props.src || '', title: 'Custom video player' }
 }
 
 /**
  * Utility function for generating the share link of the current VitePress page.
  *
- * Uses VitePress's `useRouter` to get the current route and generate a complete share link based on the path.
+ * Uses VitePress's `useRouter` to get the current route and generate a complete
+ * share link based on the path.
  *
  * @returns The share link of the current page.
  */
@@ -134,12 +146,15 @@ export function useShareLink(): ComputedRef<string> {
 /**
  * Handles click events to perform copy operations or redirection.
  *
- * When `prelink.copy` is `true`, prevents the default behavior and copies the content of `prelink.install` to the clipboard.
- * If the copy operation is successful, prints a success message to the console. If it fails, prints an error message. If `prelink.copy` is `false`
- * or not set, the function does not perform the copy operation and proceeds with the normal redirection process.
+ * When `prelink.copy` is `true`, prevents the default behavior and copies the
+ * content of `prelink.install` to the clipboard. If the copy operation is
+ * successful, prints a success message to the console. If it fails, prints an
+ * error message. If `prelink.copy` is `false` or not set, the function does not
+ * perform the copy operation and proceeds with the normal redirection process.
  *
  * @param event - The mouse event object that triggered the event.
- * @param prelink - A `Prelink` object containing link information. It includes jump links, copy content, etc.
+ * @param prelink - A `Prelink` object containing link information. It includes
+ *   jump links, copy content, etc.
  * @returns Void
  */
 export function handleClick(
